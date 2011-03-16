@@ -1,0 +1,28 @@
+#slideshow {
+  height: 700px;
+  position: relative;
+}
+
+#slideshow div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:8;
+  opacity:0.0;
+  height: 700px;
+  background: #E7EDF4;
+}
+
+#slideshow div img {
+  display: block;
+}
+
+#slideshow div.active {
+  z-index:10;
+  opacity:1.0;
+}
+
+#slideshow div.last-active {
+    z-index:9;
+}
+

@@ -1,0 +1,18 @@
+#content {
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+.thumbnail {
+  border: black solid 3px;
+  width: 182px;
+  height: 130px;
+  float: left;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  height: 135px;
+  border-style: none;
+}

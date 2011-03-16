@@ -1,0 +1,126 @@
+/* General classes */
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.inline {
+  display: inline;
+}
+
+.listylenone {
+  list-style: none;
+}
+
+/* Layout */
+
+body {
+  background: url('../mb_ims/theme/background.png') fixed;
+}
+
+body ul {
+  padding: 0;
+  margin: 0;
+}
+
+#body-wrapper, #content-wrapper {
+  width: 990px;
+}
+
+#body-wrapper {
+  margin: auto;
+  font-family: Lucida Grande, Verdana, Arial, sans-serif;
+  font-size: 75%;
+  line-height: 1.5;
+  height: 100%;
+}
+
+#header {
+  height: 60px;
+  background: #fff url('../mb_ims/theme/header.png') no-repeat;
+}
+
+#content-wrapper {
+  background: #E7EDF4 url('../mb_ims/theme/content-wrapper.png') repeat-y;
+  top: 60px;
+  left: 0;
+  height: 100%;
+}
+
+#content, #slideshow, #slideshow div, #slideshow div img, #imgview, #tag_names {
+  width: 794px;
+}
+
+#content {
+  border-right: navy solid 1px;
+  height: 100%;
+}
+
+#content h1 {
+  margin: 0;
+}
+
+/* Menus */
+
+.menu a {
+  color: #EEEBE7;
+  text-decoration: none;
+}
+
+.menu-active {
+  color: #EEEBE7;
+  text-decoration: underline;
+}
+
+#top-links li.menu-active {
+  font-size: 1.4em;
+}
+
+.nav-menus {
+  float: right;
+}
+
+.nav-menus a {
+  font-size: 1.5em;
+  text-shadow: black 1px 1px;
+}
+
+#top-menu {
+  float: right;
+  margin: 0;
+}
+
+#top-menu li {
+  margin: 0 0.5em;
+}
+
+#languages-menu {
+  float: right;
+  margin-left: 80%;
+  margin-bottom: 0.5em;
+}
+
+#right-menu, #right-menu li {
+  width: 195px;
+}
+
+#right-menu {
+  float: right;
+  background: #45769b url("http://localhost/geraldine-git/sites/all/themes/framework/images/portrait.jpg") no-repeat;
+  padding-top: 300px;
+}
+
+#right-menu li {
+  border-bottom: #7593a9 solid 1px;
+  padding: 0.3em 0;
+}
+
+#right-menu li a {
+  padding-left: 0.5em;
+}
